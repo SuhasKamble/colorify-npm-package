@@ -1,0 +1,31 @@
+{
+  "name": "suhas-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuhasKamble/colorify-npm-package.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Suhas Kamble <kamblesuhas12@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuhasKamble/colorify-npm-package/issues"
+  },
+  "homepage": "https://github.com/SuhasKamble/colorify-npm-package#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
